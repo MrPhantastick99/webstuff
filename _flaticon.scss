@@ -1,0 +1,76 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/10/2020 22:54
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-toolbox:before { content: "\f100"; }
+.flaticon-writing:before { content: "\f101"; }
+.flaticon-cv:before { content: "\f102"; }
+.flaticon-easter-egg-with-different-lines-design:before { content: "\f103"; }
+.flaticon-personal-computer:before { content: "\f104"; }
+.flaticon-pc:before { content: "\f105"; }
+.flaticon-computer-desktop:before { content: "\f106"; }
+.flaticon-pc-mechanic:before { content: "\f107"; }
+.flaticon-wrench:before { content: "\f108"; }
+.flaticon-bug-fixing:before { content: "\f109"; }
+.flaticon-floppy-disk:before { content: "\f10a"; }
+.flaticon-floppy:before { content: "\f10b"; }
+.flaticon-usb-drive:before { content: "\f10c"; }
+.flaticon-compact-disc-with-glare:before { content: "\f10d"; }
+.flaticon-hard-disc:before { content: "\f10e"; }
+.flaticon-flash-drive:before { content: "\f10f"; }
+.flaticon-hard-disk:before { content: "\f110"; }
+.flaticon-ssd:before { content: "\f111"; }
+    
+    $font-Flaticon-toolbox: "\f100";
+    $font-Flaticon-writing: "\f101";
+    $font-Flaticon-cv: "\f102";
+    $font-Flaticon-easter-egg-with-different-lines-design: "\f103";
+    $font-Flaticon-personal-computer: "\f104";
+    $font-Flaticon-pc: "\f105";
+    $font-Flaticon-computer-desktop: "\f106";
+    $font-Flaticon-pc-mechanic: "\f107";
+    $font-Flaticon-wrench: "\f108";
+    $font-Flaticon-bug-fixing: "\f109";
+    $font-Flaticon-floppy-disk: "\f10a";
+    $font-Flaticon-floppy: "\f10b";
+    $font-Flaticon-usb-drive: "\f10c";
+    $font-Flaticon-compact-disc-with-glare: "\f10d";
+    $font-Flaticon-hard-disc: "\f10e";
+    $font-Flaticon-flash-drive: "\f10f";
+    $font-Flaticon-hard-disk: "\f110";
+    $font-Flaticon-ssd: "\f111";

@@ -1,0 +1,82 @@
+@font-face{
+ font-family:"SFFedora";
+ src:url("fonts/sffedora.eot");  /* IE9 Compat Modes */ 
+ src:url("fonts/sffedora.eot") format("embedded-opentype"), /* IE6-IE8 */
+         url("fonts/sffedora.woff2") format("woff2"), /* Super Modern Browsers */
+         url("fonts/sffedora.woff") format("woff"), /* Pretty Modern Browsers */
+         url("fonts/sffedora.ttf") format("truetype"), /* Safari, Android, iOS */
+         url("fonts/sffedora.svg#sffedora") format("svg"); /* Legacy iOS */
+}
+@font-face{
+ font-family:"Marlboro";
+ src:url("fonts/marlboro.eot");  /* IE9 Compat Modes */ 
+ src:url("fonts/marlboro.eot") format("embedded-opentype"), /* IE6-IE8 */
+         url("fonts/marlboro.woff2") format("woff2"), /* Super Modern Browsers */
+         url("fonts/marlboro.woff") format("woff"), /* Pretty Modern Browsers */
+         url("fonts/marlboro.ttf") format("truetype"), /* Safari, Android, iOS */
+         url("fonts/marlboro.svg#marlboro") format("svg"); /* Legacy iOS */
+}
+@font-face{
+ font-family:"PrintChar21";
+ src:url("fonts/PrintChar21.eot");  /* IE9 Compat Modes */ 
+ src:url("fonts/PrintChar21.eot") format("embedded-opentype"), /* IE6-IE8 */
+         url("fonts/PrintChar21.woff2") format("woff2"), /* Super Modern Browsers */
+         url("fonts/PrintChar21.woff") format("woff"), /* Pretty Modern Browsers */
+         url("fonts/PrintChar21.ttf") format("truetype"), /* Safari, Android, iOS */
+         url("fonts/PrintChar21.svg#wingding") format("svg"); /* Legacy iOS */ 
+}
+
+@font-face{
+ font-family: DejaVuSans;
+ src: url("fonts/dejavusans.ttf");
+}
+
+@import url("fonts/flaticon.css");
+
+
+@font-face {
+    font-family: "pcfonts";
+    src: url("fonts/pcfonts.eot"); /* IE9 */
+    src: url("fonts/pcfonts.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/pcfonts.woff2") format("woff2"), /* chrome、firefox、opera、Safari, Android, iOS */
+    url("fonts/pcfonts.woff") format("woff"), /* chrome、firefox */
+    url("fonts/pcfonts.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("fonts/pcfonts.svg#uxpcfonts") format("svg"); /* iOS 4.1- */
+}
+
+/* Pc Icons */
+
+[class^="pcico-"]:before,[class*=" pcico-"]:before{font-family: "pcfonts" !important; font-size:4vh; font-style:normal; display:inline-block;}
+.pcico- {
+    font-family: "pcfonts" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pcico-desktop:before {
+  content: "\26";
+}
+
+.pcico-laptop:before {
+  content: "\21";
+}
+
+.pcico-imac:before {
+  content: "\22";
+}
+
+.pcico-macmini:before {
+  content: "\23";
+}
+
+.pcico-macbook:before {
+  content: "\24";
+}
+
+
