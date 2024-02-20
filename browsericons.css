@@ -4,12 +4,12 @@
 
 @font-face{
     font-family: "browsericons";
-    src: url("fonts/browsericons.eot");  /* IE9 Compat Modes */ 
-    src: url("fonts/browsericons.eot") format("embedded-opentype"), /* IE6-IE8 */
-         url("fonts/browsericons.woff2") format("woff2"), /* Super Modern Browsers */
-         url("fonts/browsericons.woff") format("woff"), /* Pretty Modern Browsers */
-         url("fonts/browsericons.ttf") format("truetype"), /* Safari, Android, iOS */
-         url("fonts/browsericons.svg#browsericons") format("svg"); /* Legacy iOS */
+    src: url("browsericons.eot");  /* IE9 Compat Modes */ 
+    src: url("browsericons.eot") format("embedded-opentype"), /* IE6-IE8 */
+         url("browsericons.woff2") format("woff2"), /* Super Modern Browsers */
+         url("browsericons.woff") format("woff"), /* Pretty Modern Browsers */
+         url("browsericons.ttf") format("truetype"), /* Safari, Android, iOS */
+         url("browsericons.svg#browsericons") format("svg"); /* Legacy iOS */
 }
 
 .browser,[class^="browser-"]:before,[class*=" browser-"]:before{
